@@ -43,7 +43,7 @@ async def start_pm(client, message: Message, _):
     bot_id = a.id
     await add_served_user_clone(message.from_user.id, bot_id)
 
-    loading_1 = await message.reply_text("⚡")
+    loading_1 = await message.reply_text("❤️")
     C_BOT_OWNER_ID = get_owner_id_from_db(a.id)
     # await asyncio.sleep(0.2)
     
