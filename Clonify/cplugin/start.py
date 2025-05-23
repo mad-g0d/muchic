@@ -171,7 +171,7 @@ async def start_gp(client, message: Message, _):
                         InlineKeyboardButton(
                             text=_["S_B_1"], url=f"https://t.me/{a.username}?startgroup=true"
                         ),
-                        InlineKeyboardButton(text=_["S_B_2"], url=C_SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_["S_B_2"], url="https://t.me/KRISHAN_POLITICSSS"),
                     ],
                 ]
     uptime = int(time.time() - _boot_)
