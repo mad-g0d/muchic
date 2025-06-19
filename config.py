@@ -143,27 +143,27 @@ confirmer = {}
 # ------------------------------------------------------------------------
 
 STREAMI_PICS = [
-"https://envs.sh/sPP.jpg",
-"https://envs.sh/sPP.jpg",
+"https://files.catbox.moe/g50pga.jpg",
+"https://files.catbox.moe/g50pga.jpg",
 
 ]
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/sPP.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/g50pga.jpg"
 )
 
 HELP_IMG_URL = getenv(
-    "HELP_IMG_URL", "https://envs.sh/sPP.jpg"
+    "HELP_IMG_URL", "https://files.catbox.moe/g50pga.jpg"
 )
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/sPP.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/g50pga.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/sPP.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/g50pga.jpg"
 STATS_IMG_URL = "https://envs.sh/sPP.jpg"
 TELEGRAM_AUDIO_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
 TELEGRAM_VIDEO_URL = "https://i.ibb.co/gL3ykkyh/play-music.jpg"
-STREAM_IMG_URL = "https://envs.sh/sPP.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/g50pga.jpg"
 SOUNCLOUD_IMG_URL = "https://i.ibb.co/S4sPf3q8/soundcloud.jpg"
 YOUTUBE_IMG_URL = "https://i.ibb.co/xShkBVBK/youtube.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/XZfMS8Db/spotify.jpg"
