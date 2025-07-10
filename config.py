@@ -143,8 +143,8 @@ confirmer = {}
 # ------------------------------------------------------------------------
 
 STREAMI_PICS = [
-"https://files.catbox.moe/g50pga.jpg",
-"https://files.catbox.moe/g50pga.jpg",
+"https://files.catbox.moe/xhbu88.jpg",
+"https://files.catbox.moe/xhbu88.jpg",
 
 ]
 
