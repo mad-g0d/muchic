@@ -28,7 +28,7 @@ from config import SUPPORT_CHAT, OWNER_ID
 from datetime import datetime
 CLONES = set()
 
-C_BOT_DESC = "Wᴀɴᴛ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪs? Cʟᴏɴᴇ ɪᴛ ɴᴏᴡ! ✅\n\nVɪsɪᴛ: @PHSYCHO_MUSIC_BOT ᴛᴏ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!\n\n - Uᴘᴅᴀᴛᴇ: @KRISHAN_POLITICSSS\n - Sᴜᴘᴘᴏʀᴛ: @CUTIEE_BOT_SUPPORT"
+C_BOT_DESC = "Wᴀɴᴛ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪs? Cʟᴏɴᴇ ɪᴛ ɴᴏᴡ! ✅\n\nVɪsɪᴛ: @ARYA_MUSICX_BOT ᴛᴏ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!\n\n - Uᴘᴅᴀᴛᴇ: @KRISHAN_POLITICSSS\n - Sᴜᴘᴘᴏʀᴛ: @CUTIEE_BOT_SUPPORT"
 
 C_BOT_COMMANDS = [
                 {"command": "/start", "description": "sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ"},
@@ -104,7 +104,7 @@ async def clone_txt(client, message, _):
                 "username": bot.username,
                 "channel": "krishan_politicsss",
                 "support": "CUTIEE_BOT_SUPPORT",
-                "premium" : False,
+                "premium" : True,
                 "Date" : False,
             }
             clonebotdb.insert_one(details)
