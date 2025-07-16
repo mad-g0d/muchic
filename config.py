@@ -88,7 +88,7 @@ CHAT = getenv("CHAT", "https://t.me/CUTIEE_BOT_SUPPORT")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -121,7 +121,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 STRING1 = getenv("STRING_SESSION", "")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", "BQFNtIsAS_o796fXiMc3RwrmlEkavnUh3uG8nRsqgdMCOpgsxkPo37IUmNFiUv3HMVRAHiCSFVaFVbEAatrNms5sQOkuA2QPuEb92daJzy4cIsoqSn_LJNmhYMHfSgVZ2vvikxW1Il23EhFWZ30lPxq4IpF9mSUHeTP285RtBuj9qf00OKpbVFrRBXc_FmJX15rG77Eirdqpq-DnBIuT3vqwv4b_QZck5Yg0cc3lN7Ne1-u6MZrEtKIT7WY8ac5OlMMJemSEbuT0wbt68zs5NsXXYREuM_IvxKfGRc2vZKD_bGX5FoLBQ7q9JLc_eoTrYpdlrt1zH0oCWpbiMR0thfOaMgXh0gAAAAHQY_3eAA")
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
